@@ -1,6 +1,7 @@
 module Igdb::GameRepresenter
   include Igdb::BaseRepresenter
 
+  propery :name
   property :summary # Not documented in V1 API
   property :storyline
   property :collection
